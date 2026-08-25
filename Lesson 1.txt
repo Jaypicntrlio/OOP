@@ -1,0 +1,40 @@
+--------------------------------------- Methods -----------------------------------------------
+- Overriding 
+- Makesound()
+- same name
+- diff. Implementation
+- Overloading - Same name but different Parameters.
+
+Void - walang irereturn na value, mag shshow lang sya.
+
+Example:
+
+#Parent
+    void Makesound() {
+        system.out..print ("Generif Def")
+    
+
+#Subclass
+
+    class Dog extends Animal{
+        void makesound(){
+            system.out.print("Dog make sound")
+        }
+    }
+    } 
+
+
+
+----------------------------------------------- Overloading -----------------------------------------------
+Example: 
+
+int add (int x, int y) {
+    int sum = x+y;
+    return sum;
+}
+
+Flat case - Variable
+Snake case - Variable_name
+Camel Case - VariableNamecheck
+Pascal case - VariableName
+Macro Case - VARIABLE_NAME
